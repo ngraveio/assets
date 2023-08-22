@@ -1,0 +1,9 @@
+{
+  "imageExtensions": ["png", "svg"],
+  "inputFolder": "input",
+  "assetsInfoFile": "assets.json",
+  "logoName": "logo",
+  "assetsFolder": "assets",
+  "outputFolder": "blockchains",
+  "supportedChainIds": ["ethereum", "elrond"]
+}
