@@ -9,7 +9,7 @@ if __name__ == "__main__":
         './src/output/assets.json'
     )
     Core.merge_two_folders_into_one(
-        './src/output/blockchains',
         './blockchains',
-        './blockchains_new'
+        './src/output/blockchains',
+        './blockchains'
     )

@@ -11,20 +11,19 @@ class Core:
         
         # then copy folder2 to output_folder
         for dirpath, dirnames, filenames in os.walk(folder2):
-            # Create any directories that don't already exist
-            for dirname in dirnames:
-                full_dirname = os.path.join(dirpath, dirname)
-                rel_dir = os.path.relpath(full_dirname, folder2)
-                dest_dir = os.path.join(output_folder, rel_dir)
-                if not os.path.exists(dest_dir):
-                    os.makedirs(dest_dir)
+            # Construct the destination directory path
+            dest_dir = os.path.join(output_folder, os.path.relpath(dirpath, folder2))
             
-            # Copy any files
+            # Create directory in the destination if it doesn't exist
+            if not os.path.exists(dest_dir):
+                os.makedirs(dest_dir)
+            
+            # For each file in current dirpath, copy to the corresponding location in output_folder
             for filename in filenames:
-                full_file_path = os.path.join(dirpath, filename)
-                rel_path = os.path.relpath(full_file_path, folder2)
-                dest_file_path = os.path.join(output_folder, rel_path)
-                shutil.copy2(full_file_path, dest_file_path)
+                source_file = os.path.join(dirpath, filename)
+                dest_file = os.path.join(dest_dir, filename)
+                
+                shutil.copy2(source_file, dest_file) # copy2 is used to also preserve metadata
     # def merge_two_folders_into_one(folder1: str, folder2: str, output_folder: str):
     #     # first copy folder1 to output_folder
     #     import shutil, os
@@ -58,11 +57,11 @@ class Core:
                         print(os.path.join(asset.get('dir')), os.path.exists(asset_dir:=os.path.join(asset.get('dir'), 'logo.svg')), os.path.join(asset.get('dir'), 'logo.svg'), f'./src/output/blockchains/{coin_id}/{token_address}')
                         if token_address:
                             if os.path.exists(asset_dir:=os.path.join(asset.get('dir'), 'logo.svg')):
-                                os.makedirs(f'./src/output/blockchains/{coin_id}/{token_address}', exist_ok=True)
-                                os.rename(asset_dir, os.path.join(f'./src/output/blockchains/{coin_id}/{token_address}', 'logo.svg'))
+                                os.makedirs(f'./src/output/blockchains/{coin_id}/assets/{token_address}', exist_ok=True)
+                                os.rename(asset_dir, os.path.join(f'./src/output/blockchains/{coin_id}/assets/{token_address}', 'logo.svg'))
                             if os.path.exists(asset_dir:=os.path.join(asset.get('dir'), 'logo.png')):
-                                os.makedirs(f'./src/output/blockchains/{coin_id}/{token_address}', exist_ok=True)
-                                os.rename(asset_dir, os.path.join(f'./src/output/blockchains/{coin_id}/{token_address}', 'logo.png'))                                
+                                os.makedirs(f'./src/output/blockchains/{coin_id}/assets/{token_address}', exist_ok=True)
+                                os.rename(asset_dir, os.path.join(f'./src/output/blockchains/{coin_id}/assets/{token_address}', 'logo.png'))                                
                         else:
                             if os.path.exists(asset_dir:=os.path.join(asset.get('dir'), 'logo.svg')):
                                 os.makedirs(f'./src/output/blockchains/{coin_id}', exist_ok=True)
