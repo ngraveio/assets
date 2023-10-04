@@ -7,7 +7,8 @@ class Core:
         import shutil, os
         
         # first copy folder1 to output_folder
-        shutil.copytree(folder1, output_folder)
+        if folder1 != output_folder:
+            shutil.copytree(folder1, output_folder)
         
         # then copy folder2 to output_folder
         for dirpath, dirnames, filenames in os.walk(folder2):
@@ -24,16 +25,6 @@ class Core:
                 dest_file = os.path.join(dest_dir, filename)
                 
                 shutil.copy2(source_file, dest_file) # copy2 is used to also preserve metadata
-    # def merge_two_folders_into_one(folder1: str, folder2: str, output_folder: str):
-    #     # first copy folder1 to output_folder
-    #     import shutil, os
-    #     shutil.copytree(folder1, output_folder)
-
-    #     # then copy folder2 to output_folder
-    #     # * all files in folder2 will overwrite files in output_folder if they have the same name or newly added if they are not in output_folder
-    #     # * it is possible that some branches of folder2 are not in output_folder, so we need to create them and add from folder2
-
-                
 
     class TrustWallet:
         BLOCKCHAINS_DIR = './src/input/blockchains'
