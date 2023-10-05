@@ -3,7 +3,7 @@
 
 
 # Recursively find all directories
-find /Users/pieter/Documents/assets/blockchains/ethereum/assets -type d | while read -r dir; do
+find ./blockchains/ethereum/assets -type d | while read -r dir; do
   # Convert the directory name to lowercase
   newdir=$(dirname "$dir")/$(basename "$dir" | tr '[:upper:]' '[:lower:]')
   
