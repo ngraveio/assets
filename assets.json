@@ -2740,6 +2740,11 @@
     "name": "Polygon"
   },
   {
+    "id": "polygon@0x5fe2B58c013d7601147DcdD68C143A77499f5531",
+    "symbol": "GRT",
+    "name": "Graph Token (PoS)"
+  },
+  {
     "id": "polygon@0x9aF3b7DC29D3C4B1A5731408B6A9656fA7aC3b72",
     "symbol": "PUSD",
     "name": "PUSD"
@@ -3451,7 +3456,7 @@
   },
   {
     "id": "polygon@0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf",
-    "symbol": "GNT",
+    "symbol": "GLM",
     "name": "Golem"
   },
   {
@@ -4333,6 +4338,11 @@
     "id": "avalanchec@0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
     "symbol": "BUSD.e",
     "name": "Binance USD"
+  },
+  {
+    "id": "avalanchec@0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
+    "symbol": "WOO",
+    "name": "Wootrade Network"
   },
   {
     "id": "avalanchec@0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17",
@@ -5825,6 +5835,11 @@
     "name": "Hoo Token"
   },
   {
+    "id": "neon",
+    "symbol": "NEON",
+    "name": "Neon EVM"
+  },
+  {
     "id": "nimiq",
     "symbol": "NIM",
     "name": "Nimiq"
@@ -6220,9 +6235,19 @@
     "name": "Algorand"
   },
   {
+    "id": "algorand@312769",
+    "symbol": "USDT",
+    "name": "Tether USD"
+  },
+  {
     "id": "algorand@137594422",
     "symbol": "HDL",
     "name": "HEADLINE"
+  },
+  {
+    "id": "algorand@31566704",
+    "symbol": "USDC",
+    "name": "USD Coin"
   },
   {
     "id": "juno",
@@ -6253,6 +6278,31 @@
     "id": "cardano",
     "symbol": "ADA",
     "name": "Cardano"
+  },
+  {
+    "id": "cardano@asset108xu02ckwrfc8qs9d97mgyh4kn8gdu9w8f5sxk",
+    "symbol": "SNEK",
+    "name": "Snek"
+  },
+  {
+    "id": "cardano@asset1zvn33mj5kzgxtct7jr5qjyefu9ewk22xp0s0yw",
+    "symbol": "MELD",
+    "name": "MELD"
+  },
+  {
+    "id": "cardano@asset1wrng86n9sz6t5d0lemvudur4ul6mgduv0gzuj8",
+    "symbol": "ASHIB",
+    "name": "ADA Shiba Inu"
+  },
+  {
+    "id": "cardano@asset1l58ned7zvj57pxyp94kkqqyxvjelvtpcjjh743",
+    "symbol": "USDT",
+    "name": "Tether USD"
+  },
+  {
+    "id": "cardano@asset1fc7e54kds62yggplh0vs65vcgrmn5n577per23",
+    "symbol": "USDC",
+    "name": "USD Coin"
   },
   {
     "id": "smartchain",
@@ -6933,6 +6983,11 @@
     "id": "smartchain@0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
     "symbol": "ETC",
     "name": "BNB pegged Ethereum Classic"
+  },
+  {
+    "id": "smartchain@0xe52bB35344cceedd014Be2896d01e604ad992c85",
+    "symbol": "SNACK",
+    "name": "Crypto Snack 2.0"
   },
   {
     "id": "smartchain@0xc4a54699d24C5C130cf866974181E41e22bb3b07",
@@ -8160,6 +8215,11 @@
     "name": "SafeToken"
   },
   {
+    "id": "smartchain@0x5Afa2959C98b030716f7C0a4D85e0b0E35F3791B",
+    "symbol": "BITCOIN",
+    "name": "ElonXAIDogeMessi69PepeInu"
+  },
+  {
     "id": "smartchain@0x9641C1eee00471f7dA822167F6CF77202356179a",
     "symbol": "R$C",
     "name": "Rhyme$ick Coin"
@@ -8278,6 +8338,11 @@
     "id": "smartchain@0xf4206e5F264420630520e0D23c14D8Dd5645e6C3",
     "symbol": "LUNAR",
     "name": "Lunar"
+  },
+  {
+    "id": "smartchain@0xEcf99aB23C11ddc6520252105308C251001AEfBB",
+    "symbol": "UNS",
+    "name": "UNS Token"
   },
   {
     "id": "smartchain@0x9b76D1B12Ff738c113200EB043350022EBf12Ff0",
@@ -9210,6 +9275,11 @@
     "name": "Puli"
   },
   {
+    "id": "smartchain@0x000351d035D8BBf2aa3131EbFECD66Fb21836f6c",
+    "symbol": "SCOTTY",
+    "name": "Scotty Beam"
+  },
+  {
     "id": "smartchain@0x00e1656e45f18ec6747F5a8496Fd39B50b38396D",
     "symbol": "BCOIN",
     "name": "Bomber Coin"
@@ -9273,6 +9343,11 @@
     "id": "smartchain@0x52dCF5BEdc061604D8C592B0079A0FF2ceA22eB7",
     "symbol": "AXO",
     "name": "Axolotl Finance"
+  },
+  {
+    "id": "smartchain@0xd8Fa690304D2B2824D918C0c7376e2823704557A",
+    "symbol": "SquidGrow",
+    "name": "SquidGrow"
   },
   {
     "id": "smartchain@0x70B6C6A555507EE4ac91C15E5c80b7dc8FF3b489",
@@ -9558,6 +9633,11 @@
     "id": "smartchain@0x0bc89aa98Ad94E6798Ec822d0814d934cCD0c0cE",
     "symbol": "BATH",
     "name": "Battle Hero"
+  },
+  {
+    "id": "smartchain@0x7208A2671a2f96950D44C6dAAF24719Ce44dEA78",
+    "symbol": "W3M",
+    "name": "WEB3MET"
   },
   {
     "id": "smartchain@0x4BbB275012EBE258556B8debE5C07bE98e8d3859",
@@ -11400,6 +11480,11 @@
     "name": "LFG Token"
   },
   {
+    "id": "smartchain@0x168e3b1746Aa249a9b3603B70605924fE255Ee1a",
+    "symbol": "GMR",
+    "name": "GAMER"
+  },
+  {
     "id": "smartchain@0xD930f493E153d745aFB124F9859bE8479e4b1862",
     "symbol": "SML",
     "name": "Spaceman LOL Token"
@@ -11443,6 +11528,11 @@
     "id": "smartchain@0xb2f7797389ad34Ebd3a30ac6402861844fAC7F5e",
     "symbol": "CHORD",
     "name": "\u0421hord Protocol"
+  },
+  {
+    "id": "smartchain@0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA",
+    "symbol": "QANX",
+    "name": "QANX Token"
   },
   {
     "id": "smartchain@0x6e9730EcFfBed43fD876A264C982e254ef05a0DE",
@@ -13480,6 +13570,11 @@
     "name": "Baby Floki Billionaire"
   },
   {
+    "id": "smartchain@0x8479B19c5a3C43e024B2543582af0FC2fEf2E6A8",
+    "symbol": "MAGA",
+    "name": "TRUMP"
+  },
+  {
     "id": "smartchain@0xAcD7B3D9c10e97d0efA418903C0c7669E702E4C0",
     "symbol": "ELE",
     "name": "Eleven Finance"
@@ -15153,6 +15248,11 @@
     "id": "smartchain@0x986eedB84A934C81eDc0a080D03C6e3C1d7A8399",
     "symbol": "MRSDOGE",
     "name": "Dogette"
+  },
+  {
+    "id": "smartchain@0x3542a28854c5243656FA5cfA1A2811a32E28C1c8",
+    "symbol": "CR",
+    "name": "Capitalrock"
   },
   {
     "id": "smartchain@0x06b889a7a7fa15D8cC7CFf147962C4232cCE7CF0",
@@ -17670,6 +17770,11 @@
     "name": "Bitcoin Networks"
   },
   {
+    "id": "smartchain@0x9B9D7eb1816E35Ecf3B3ab58B08257C8d47F15CD",
+    "symbol": "NTZ",
+    "name": "Natronz"
+  },
+  {
     "id": "smartchain@0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc",
     "symbol": "mNFLX",
     "name": "Wrapped Mirror NFLX Token"
@@ -18583,6 +18688,11 @@
     "id": "smartchain@0x42873a833717753A8d77Ad6d0a8710aF2c66c052",
     "symbol": "PUFFY",
     "name": "PuffyDogCoin"
+  },
+  {
+    "id": "smartchain@0x9b208b117B2C4F76C1534B6f006b033220a681A4",
+    "symbol": "DINGO",
+    "name": "Dingocoin"
   },
   {
     "id": "smartchain@0xAbc69f2025bDb12efcdB8fd048d240fFf943ca82",
@@ -20058,6 +20168,11 @@
     "id": "smartchain@0x5298AD82dD7C83eEaA31DDa9DEB4307664C60534",
     "symbol": "MSHOT",
     "name": "Moonshot"
+  },
+  {
+    "id": "linea",
+    "symbol": "TBA",
+    "name": "Linea"
   },
   {
     "id": "polkadot",
@@ -22210,6 +22325,11 @@
     "name": "Zilliqa"
   },
   {
+    "id": "ethereum@0x8dfc8cc3201425669FaE803e1eB125cddd4189eC",
+    "symbol": "OKAGE",
+    "name": "Okage Inu"
+  },
+  {
     "id": "ethereum@0x4B32CA05509ca4ffDBb7D2D82B27bc48Ecde62F2",
     "symbol": "LMY",
     "name": "Lunch Money"
@@ -22588,6 +22708,11 @@
     "id": "ethereum@0xBD16179538D7d5A91285F730a7c94E134FC0F677",
     "symbol": "LGC",
     "name": "Liquid Gold"
+  },
+  {
+    "id": "ethereum@0x7b744eEa1dECa2f1B7b31F15Ba036Fa1759452d7",
+    "symbol": "HIPP",
+    "name": "El Hippo"
   },
   {
     "id": "ethereum@0x60a41Dcc8D48a32dDE8ef4cCA4Ef044E8304df38",
@@ -24673,6 +24798,11 @@
     "id": "ethereum@0xa0246c9032bC3A600820415aE600c6388619A14D",
     "symbol": "FARM",
     "name": "Harvest Finance"
+  },
+  {
+    "id": "ethereum@0x6Bc40d4099f9057b23aF309C08d935b890d7Adc0",
+    "symbol": "SNAIL",
+    "name": "SnailBrook"
   },
   {
     "id": "ethereum@0x5Af2Be193a6ABCa9c8817001F45744777Db30756",
@@ -28558,6 +28688,11 @@
     "id": "ethereum@0x0707681F344dEB24184037fC0228856F2137B02E",
     "symbol": "FNKOS",
     "name": "FNKOSToken"
+  },
+  {
+    "id": "ethereum@0x089453742936dd35134383aee9d78bEe63A69b01",
+    "symbol": "GOLD",
+    "name": "GOLD"
   },
   {
     "id": "ethereum@0xA5513928CD21090193C1c3E586D59f130f035c92",
@@ -34063,6 +34198,11 @@
     "id": "ethereum@0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
     "symbol": "GNT",
     "name": "Golem"
+  },
+  {
+    "id": "ethereum@0x335F4e66B9B61CEE5CeaDE4e727FCEC20156B2F0",
+    "symbol": "ELMO",
+    "name": "ElmoERC"
   },
   {
     "id": "ethereum@0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D",
@@ -41345,6 +41485,11 @@
     "name": "SWAG"
   },
   {
+    "id": "ethereum@0x15C1Cab705B9Ddb9FfeeEa608eD8BaFcdd4c0396",
+    "symbol": "HXA",
+    "name": "HXAcoin"
+  },
+  {
     "id": "ethereum@0x4BBbC57aF270138Ef2FF2C50DbfAD684e9E0e604",
     "symbol": "WAB",
     "name": "WABnetwork"
@@ -41373,6 +41518,11 @@
     "id": "ethereum@0x968F6f898a6Df937fC1859b323aC2F14643e3fED",
     "symbol": "NWC",
     "name": "Newscrypto"
+  },
+  {
+    "id": "ethereum@0x244b797d622D4DEe8b188b03546ACAAbD0Cf91A0",
+    "symbol": "FOUR",
+    "name": "Four"
   },
   {
     "id": "ethereum@0x2B4395084E1068877502EAD1Ae004094F5A0B88F",
@@ -45065,6 +45215,11 @@
     "name": "OHFF"
   },
   {
+    "id": "ethereum@0x43D7E65B8fF49698D9550a7F315c87E67344FB59",
+    "symbol": "SHIA",
+    "name": "Shiba Saga"
+  },
+  {
     "id": "ethereum@0x97fB6Fc2AD532033Af97043B563131C5204F8A35",
     "symbol": "NPLC",
     "name": "PlusCoin"
@@ -45466,8 +45621,8 @@
   },
   {
     "id": "ethereum@0x4Fabb145d64652a948d72533023f6E7A623C7C53",
-    "symbol": "",
-    "name": ""
+    "symbol": "BUSD",
+    "name": "Binance USD"
   },
   {
     "id": "ethereum@0xE51f24B251430A6e615f66e0d3c3A97c442aB38C",
@@ -46360,6 +46515,11 @@
     "name": "TKNT"
   },
   {
+    "id": "ethereum@0x3B604747ad1720C01ded0455728b62c0d2F100F0",
+    "symbol": "WAGMIGAMES",
+    "name": "WAGMI GAMES"
+  },
+  {
     "id": "ethereum@0x002ACD33D758FcbDc72242A86Ed27eFA0006d42f",
     "symbol": "CWIOS",
     "name": "CWIOS"
@@ -46833,11 +46993,6 @@
     "id": "ethereum@0x8499e759C3a624a90db184503c5dc74F5040fFE2",
     "symbol": "CODE",
     "name": "code1  coin"
-  },
-  {
-    "id": "ethereum@0x121D13E8128E622382B881A615b723ACdBc0b67b",
-    "symbol": "TLBT",
-    "name": "TeleBet Token"
   },
   {
     "id": "ethereum@0x121D13E8128E622382B881A615b723ACdBc0b67b",
@@ -49553,6 +49708,11 @@
     "id": "ethereum@0xeE4458e052B533b1aABD493B5f8c4d85D7B263Dc",
     "symbol": "PASS",
     "name": "Blockpass"
+  },
+  {
+    "id": "ethereum@0x0b0a8c7C34374C1d0C649917a97EeE6c6c929B1b",
+    "symbol": "SHEPE",
+    "name": "Shiba V Pepe"
   },
   {
     "id": "ethereum@0x24D77c210a014b1E123a0878F6C903Df74A2317B",
@@ -55753,25 +55913,5 @@
     "id": "zilliqa",
     "symbol": "ZIL",
     "name": "Zilliqa"
-  },
-  {
-    "id": "ethereum@0xae78736cd615f374d3085123a210448e74fc6393",
-    "symbol": "RETH",
-    "name": "Rocket Pool ETH"
-  },
-  {
-    "id": "ethereum@0x5E8422345238F34275888049021821E8E08CAa1f",
-    "symbol": "frxETH",
-    "name": "Frax Finance - Frax Ether"
-  },
-  {
-    "id": "ethereum@0xac3E018457B222d93114458476f3E3416Abbe38F",
-    "symbol": "sfrxETH",
-    "name": "Frax Staked Ether"
-  },
-  {
-    "id": "ethereum@0x0d8775f648430679a709e98d2b0cb6250d2887ef",
-    "symbol": "bat-1",
-    "name": "Basic Attention Token"
   }
 ]
