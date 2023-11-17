@@ -12,6 +12,18 @@ Asset repository containing all the assets used in the project in both `.png` an
       - [Steps](#steps)
       - [Output](#output)
 
+## Adding coins to the repository
+There are options:
+
+1. Using the script to add icons. You can see configuration options below.
+    - add icons to input folder
+    - run the script
+    - if some icons are not added, probably assets.json misses info about icon
+    - add missing icons to assets.json and rerun the script
+2. Manual adding of icons
+    - Create the correct folder structure
+    - Add each icon manually
+
 ## Config
 [script.config.json](script.config.json) contains the configuration for the project.
 
