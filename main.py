@@ -3,7 +3,7 @@ from src.config import config
 import os
 
 asset_items = AssetItems(config.assets_info_file)
-assets: list[Asset] = []
+assets = []
 
 for root, dirs, files in os.walk(config.input_dir):
     for file in files:
