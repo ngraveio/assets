@@ -139,6 +139,7 @@ example of the config file:
 | -------------------- | --------------------------------------------------------------------- | --------------------------- |
 | `images[].from_name` | name of the source icon that needs to be converted                    | `./blockchains/**/logo.svg` |
 | `images[].to_name`   | name of the converted icon (placed in the same folder as source icon) | `logo.png`                  |
+| `images[].size`      | desired size of the icon after converting                             | `256`                       |
 
 #### Example
 
@@ -150,7 +151,8 @@ example of the config file:
     "images": [
       {
         "from_name": "./blockchains/**/logo.svg",
-        "to_name": "logo.png"
+        "to_name": "logo.png",
+        "size": 256
       }
     ]
   }
