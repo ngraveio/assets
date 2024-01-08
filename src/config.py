@@ -22,6 +22,7 @@ class CompressIconsConfigImage(BaseModel):
 class ConvertIconsConfigImage(BaseModel):
     from_name: str
     to_name: str
+    size: int
 
 
 class CompressIconsConfig(BaseModel):

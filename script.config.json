@@ -12,7 +12,8 @@
     "images": [
       {
         "from_name": "./blockchains/**/logo.svg",
-        "to_name": "logo.png"
+        "to_name": "logo.png",
+        "size": 256
       }
     ]
   },
