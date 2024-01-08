@@ -3,3 +3,4 @@ __pycache__/
 scripts/input
 src/input
 src/output
+venv/
