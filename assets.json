@@ -6085,6 +6085,46 @@
     "name": "Itheum (on MultiversX)"
   },
   {
+    "id": "elrond@AERO-458bbf",
+    "symbol": "AERO",
+    "name": "Aero (on MultiversX)"
+  },
+  {
+    "id": "elrond@BBANK-ab116b",
+    "symbol": "BBANK",
+    "name": "Bbank (on MultiversX)"
+  },
+  {
+    "id": "elrond@BMI-81000e",
+    "symbol": "BMI",
+    "name": "Bmi (on MultiversX)"
+  },
+  {
+    "id": "elrond@KRO-df97ec",
+    "symbol": "KRO",
+    "name": "Kro (on MultiversX)"
+  },
+  {
+    "id": "elrond@PROTEO-0c7311",
+    "symbol": "PROTEO",
+    "name": "Proteo (on MultiversX)"
+  },
+  {
+    "id": "elrond@SUPER-507aa6",
+    "symbol": "SUPER",
+    "name": "Super (on MultiversX)"
+  },
+  {
+    "id": "elrond@VITAL-ab7917",
+    "symbol": "VITAL",
+    "name": "Vital (on MultiversX)"
+  },
+  {
+    "id": "elrond@WAM-510e42",
+    "symbol": "WAM",
+    "name": "Wam (on MultiversX)"
+  },
+  {
     "id": "ark",
     "symbol": "ARK",
     "name": "Ark"

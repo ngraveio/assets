@@ -1,9 +1,29 @@
 {
-  "imageExtensions": ["png", "svg"],
-  "inputFolder": "input",
-  "assetsInfoFile": "assets.json",
-  "logoName": "logo",
-  "assetsFolder": "assets",
-  "outputFolder": "blockchains",
-  "supportedChainIds": ["ethereum", "elrond"]
+  "auto_arrange": {
+    "image_extensions": ["png", "svg"],
+    "input_folder": "input",
+    "assets_info_file": "assets.json",
+    "logo_name": "logo",
+    "assets_folder": "assets",
+    "output_folder": "blockchains",
+    "supported_chain_ids": ["ethereum", "elrond"]
+  },
+  "convert_icons": {
+    "images": [
+      {
+        "from_name": "./blockchains/**/logo.svg",
+        "to_name": "logo.png",
+        "size": 256
+      }
+    ]
+  },
+  "compress_icons": {
+    "images": [
+      {
+        "from_name": "./blockchains/**/logo.png",
+        "to_name": "logo64.png",
+        "size": 64
+      }
+    ]
+  }
 }
