@@ -1,17 +1,1 @@
-<svg width="262" height="262" viewBox="0 0 262 262" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_112_11349)">
-<rect width="262" height="262" rx="131" fill="#343434"/>
-<path d="M109.269 65.9229L66.1895 131L131 228.905L195.811 131L152.731 65.9229L165.474 131H180.642L137.895 199.947V131H150.305L131.192 33.3843L131 33.0947L130.808 33.3843L111.695 131H124.105V199.947L81.3579 131H96.5263L109.269 65.9229Z" fill="#D7A012"/>
-<path d="M109.269 65.9229L66.1895 131L131 228.905L195.811 131L152.731 65.9229L165.474 131H180.642L137.895 199.947V131H150.305L131.192 33.3843L131 33.0947L130.808 33.3843L111.695 131H124.105V199.947L81.3579 131H96.5263L109.269 65.9229Z" fill="url(#paint0_linear_112_11349)" fill-opacity="0.3"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_112_11349" x1="131" y1="73.8885" x2="131" y2="209.867" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="0.682292" stop-color="white" stop-opacity="0"/>
-<stop offset="1" stop-color="white" stop-opacity="0.5"/>
-</linearGradient>
-<clipPath id="clip0_112_11349">
-<rect width="262" height="262" rx="131" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg fill="none" height="262" viewBox="0 0 262 262" width="262" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="131" x2="131" y1="73.8885" y2="209.867"><stop offset="0" stop-color="#fff"/><stop offset=".682292" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".5"/></linearGradient><clipPath id="b"><rect height="262" rx="131" width="262"/></clipPath><g clip-path="url(#b)"><rect fill="#343434" height="262" rx="131" width="262"/><path d="m109.269 65.9229-43.0795 65.0771 64.8105 97.905 64.811-97.905-43.08-65.0771 12.743 65.0771h15.168l-42.747 68.947v-68.947h12.41l-19.113-97.6157-.192-.2896-.192.2896-19.113 97.6157h12.41v68.947l-42.7471-68.947h15.1684z" fill="#d7a012"/><path d="m109.269 65.9229-43.0795 65.0771 64.8105 97.905 64.811-97.905-43.08-65.0771 12.743 65.0771h15.168l-42.747 68.947v-68.947h12.41l-19.113-97.6157-.192-.2896-.192.2896-19.113 97.6157h12.41v68.947l-42.7471-68.947h15.1684z" fill="url(#a)" fill-opacity=".3"/></g></svg>
