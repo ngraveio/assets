@@ -1,18 +1,1 @@
-<svg width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_37_33732)">
-<path d="M0 0V250H250V83.55V0H0Z" fill="url(#paint0_linear_37_33732)"/>
-<path d="M183.85 74.1531L167.2 57.4531H113.55V165.353H86.7V73.6031H64.95V170.453L81.6 187.103H118.65L134.8 170.953H167.2L183.85 154.303V120.153L177.95 114.403L183.85 108.503V74.1531ZM135.3 79.1531H162.15V103.353H135.3V79.1531ZM162.2 149.153H135.3V125.003H162.2V149.153Z" fill="white"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_37_33732" x1="0" y1="250" x2="250" y2="0" gradientUnits="userSpaceOnUse">
-<stop stop-color="#E71D73"/>
-<stop offset="0.3" stop-color="#2D2E83"/>
-<stop offset="0.64" stop-color="#00A19A"/>
-<stop offset="0.9" stop-color="#95C11F"/>
-<stop offset="1" stop-color="#FCEA10"/>
-</linearGradient>
-<clipPath id="clip0_37_33732">
-<rect width="250" height="250" rx="125" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg fill="none" height="250" viewBox="0 0 250 250" width="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="0" x2="250" y1="250" y2="0"><stop offset="0" stop-color="#e71d73"/><stop offset=".3" stop-color="#2d2e83"/><stop offset=".64" stop-color="#00a19a"/><stop offset=".9" stop-color="#95c11f"/><stop offset="1" stop-color="#fcea10"/></linearGradient><clipPath id="b"><rect height="250" rx="125" width="250"/></clipPath><g clip-path="url(#b)"><path d="m0 0v250h250v-166.45-83.55z" fill="url(#a)"/><path d="m183.85 74.1531-16.65-16.7h-53.65v107.8999h-26.85v-91.7499h-21.75v96.8499l16.65 16.65h37.05l16.15-16.15h32.4l16.65-16.65v-34.15l-5.9-5.75 5.9-5.9zm-48.55 5h26.85v24.1999h-26.85zm26.9 69.9999h-26.9v-24.15h26.9z" fill="#fff"/></g></svg>
